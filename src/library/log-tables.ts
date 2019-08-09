@@ -9,7 +9,7 @@ export function logMissingKeys(keys: I18NItem[]): void {
       compact: true,
     },
     head: ['#', 'Language', 'File', 'Line', 'Missing i18n Entry'],
-    colWidths: [4, 12, 40, 8, 30],
+    colWidths: [8, 12, 40, 8, 30],
   });
 
   keys.forEach((key, i) => {
