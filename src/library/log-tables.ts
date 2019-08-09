@@ -28,7 +28,7 @@ export function logUnusedKeys(keys: I18NItem[]): void {
       compact: true,
     },
     head: ['#', 'Language', 'File', 'Line', 'Unused i18n Entry'],
-    colWidths: [4, 12, 40],
+    colWidths: [8, 12, 40],
   });
 
   keys.forEach((key, i) => {
